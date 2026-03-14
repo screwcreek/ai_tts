@@ -1,7 +1,6 @@
 ### 1.功能介绍
 
-```markdown
-# 🤖 AI 聊天语音助手
+🤖 AI 聊天语音助手
 
 一个基于 Flask 的 AI 聊天应用，支持 DeepSeek 和 Qwen 大模型，并集成了丰富的语音合成功能，让 AI 能够"开口说话"。
 
@@ -9,20 +8,23 @@
 ![Flask](https://img.shields.io/badge/Flask-3.0-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## ✨ 功能特性
+✨ 功能特性
 
 ### 💬 智能对话
+
 - 支持 **DeepSeek-V3** 和 **Qwen-Max** 双模型切换
 - 支持多轮对话上下文记忆
 - 自动保存最近 20 条对话历史
 
 ### 🎙️ 语音合成
+
 - **50+ 种特色音色**：曼波、沙老板、理塘小子、电子奸臣等
 - **7 大分类**：特色、角色、解说、童声、女声、男声、方言
 - 支持 **15 种方言**：粤语、四川话、东北话、上海话等
 - 播放控制：播放/暂停/继续、从头播放
 
 ### 🎛️ 交互体验
+
 - 实时语音开关控制
 - 音频缓存机制，重复播放无需重新请求
 - 响应式界面设计，支持多种屏幕尺寸
@@ -32,8 +34,7 @@
 ### 1. 克隆项目
 
 ```bash
-git clone <your-repo-url>
-cd ai-chat-voice-assistant
+git clone https://github.com/screwcreek/ai_tts.git
 ```
 
 ### 2. 安装依赖
