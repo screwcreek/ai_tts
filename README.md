@@ -218,18 +218,3 @@ A: 在 `config.py` 的 `TTS_CONFIG['available_voices']` 列表中添加新条目
 ## 📄 许可证
 
 本项目基于 [MIT](https://www.kimi.com/chat/LICENSE) 许可证开源。
-
-## 📋 使用说明
-
-ai-chat-voice-assistant/
-├── README.md
-├── app.py
-├── config.py
-├── requirements.txt
-├── templates/
-│   └── index.html
-└── static/
-├── css/
-│   └── style.css
-└── js/
-└── app.js
