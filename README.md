@@ -1,4 +1,3 @@
-
 ### 1.功能介绍
 
 ```markdown
@@ -75,19 +74,19 @@ python app.py
 
 ## 📁 项目结构
 
-**plain**复制
-
 ```plain
-├── app.py              # Flask 后端主程序
-├── config.py           # 配置文件（API 密钥、模型配置、音色列表）
-├── requirements.txt    # Python 依赖包
+项目结构：
+├── README.md
+├── app.py
+├── config.py
+├── requirements.txt
 ├── templates/
-│   └── index.html      # 前端页面模板
+│   └── index.html
 └── static/
-    ├── css/
-    │   └── style.css   # 样式文件（当前为空，样式在 HTML 内联）
-    └── js/
-        └── app.js      # 前端逻辑处理
+├── css/
+│   └── style.css
+└── js/
+└── app.js
 ```
 
 ## 🔧 核心组件说明
@@ -220,23 +219,10 @@ A: 在 `config.py` 的 `TTS_CONFIG['available_voices']` 列表中添加新条目
 
 本项目基于 [MIT](https://www.kimi.com/chat/LICENSE) 许可证开源。
 
----
-
-**Made with ❤️ by [Your Name]**
-
-**plain**复制
-
-```plain
-
----
-
 ## 📋 使用说明
 
-将以上内容保存为 `README.md` 文件，放在项目根目录：
-```
-
 ai-chat-voice-assistant/
-├── README.md           ← 新建文件
+├── README.md
 ├── app.py
 ├── config.py
 ├── requirements.txt
